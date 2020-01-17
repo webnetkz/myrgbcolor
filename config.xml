@@ -19,24 +19,24 @@
     
         <!-- Define app icon and splashscreen for each platform. -->
     <platform name="android">
-        <icon   src="logoMax.png"               density="ldpi" />
-        <icon   src="logoMax.png"               density="mdpi" />
-        <icon   src="logoMax.png"               density="hdpi" />
-        <icon   src="logoMax.png"              density="xhdpi" />
-        <icon   src="logoMax.png"             density="xxhdpi" />
-        <icon   src="logoMax.png"            density="xxxhdpi" />
-        <splash src="logoMax.png"      density="land-ldpi" />
-        <splash src="logoMax.png"      density="land-mdpi" />
-        <splash src="logoMax.png"      density="land-hdpi" />
-        <splash src="logoMax.png"     density="land-xhdpi" />
-        <splash src="logoMax.png"    density="land-xxhdpi" />
-        <splash src="logoMax.png"   density="land-xxxhdpi" />
-        <splash src="logoMax.png"      density="port-ldpi" />
-        <splash src="logoMax.png"      density="port-mdpi" />
-        <splash src="logoMax.png"      density="port-hdpi" />
-        <splash src="logoMax.png"     density="port-xhdpi" />
-        <splash src="logoMax.png"    density="port-xxhdpi" />
-        <splash src="logoMax.png"   density="port-xxxhdpi" />
+        <icon   src="www/img/logo.png"               density="ldpi" />
+        <icon   src="www/img/logo.png"               density="mdpi" />
+        <icon   src="www/img/logo.png"               density="hdpi" />
+        <icon   src="www/img/logo.png"              density="xhdpi" />
+        <icon   src="www/img/logo.png"             density="xxhdpi" />
+        <icon   src="www/img/logo.png"            density="xxxhdpi" />
+        <splash src="www/img/logo.png"      density="land-ldpi" />
+        <splash src="www/img/logo.png"      density="land-mdpi" />
+        <splash src="www/img/logo.png"      density="land-hdpi" />
+        <splash src="www/img/logo.png"     density="land-xhdpi" />
+        <splash src="www/img/logo.png"    density="land-xxhdpi" />
+        <splash src="www/img/logo.png"   density="land-xxxhdpi" />
+        <splash src="www/img/logo.png"      density="port-ldpi" />
+        <splash src="www/img/logo.png"      density="port-mdpi" />
+        <splash src="www/img/logo.png"      density="port-hdpi" />
+        <splash src="www/img/logo.png"     density="port-xhdpi" />
+        <splash src="www/img/logo.png"    density="port-xxhdpi" />
+        <splash src="www/img/logo.png"   density="port-xxxhdpi" />
     </platform>
 
 </widget>
