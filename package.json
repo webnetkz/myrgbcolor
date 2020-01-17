@@ -1,0 +1,21 @@
+{
+  "name": "my-rgb-color",
+  "version": "1.0.4",
+  "description": "> myRGBcolor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webnet/myRGBcolor"
+  },
+  "author": "WebNet Team",
+  "license": "GNU",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "bugs": {
+    "url": "https://github.com/webnet/myRGBcolor/issues"
+  },
+  "homepage": "https://github.com/webnet/myRGBcolor"
+}
