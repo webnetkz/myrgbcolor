@@ -16,5 +16,27 @@
   <author href="https://webnet.kz" email="info@webnet.kz">
       WebNet
   </author>
+    
+        <!-- Define app icon and splashscreen for each platform. -->
+    <platform name="android">
+        <icon   src="logo.png"               density="ldpi" />
+        <icon   src="logo.png"               density="mdpi" />
+        <icon   src="logo.png"               density="hdpi" />
+        <icon   src="logo.png"              density="xhdpi" />
+        <icon   src="logo.png"             density="xxhdpi" />
+        <icon   src="logo.png"            density="xxxhdpi" />
+        <splash src="logo.png"      density="land-ldpi" />
+        <splash src="logo.png"      density="land-mdpi" />
+        <splash src="logo.png"      density="land-hdpi" />
+        <splash src="logo.png"     density="land-xhdpi" />
+        <splash src="logo.png"    density="land-xxhdpi" />
+        <splash src="logo.png"   density="land-xxxhdpi" />
+        <splash src="logo.png"      density="port-ldpi" />
+        <splash src="logo.png"      density="port-mdpi" />
+        <splash src="logo.png"      density="port-hdpi" />
+        <splash src="logo.png"     density="port-xhdpi" />
+        <splash src="logo.png"    density="port-xxhdpi" />
+        <splash src="logo.png"   density="port-xxxhdpi" />
+    </platform>
 
 </widget>
