@@ -1,13 +1,13 @@
 {
-  "name": "my-rgb-color",
-  "version": "1.0.4",
-  "description": "> myRGBcolor",
+  "name": "phonegap-template-hello-world",
+  "version": "4.0.4",
+  "description": "> A Hello World template built with PhoneGap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webnet/myRGBcolor"
+    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
   },
-  "author": "WebNet Team",
-  "license": "GNU",
+  "author": "PhoneGap Team",
+  "license": "Apache-2.0",
   "keywords": [
     "ecosystem:phonegap",
     "ecosystem:cordova",
@@ -15,7 +15,7 @@
     "phonegap:template"
   ],
   "bugs": {
-    "url": "https://github.com/webnet/myRGBcolor/issues"
+    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
   },
-  "homepage": "https://github.com/webnet/myRGBcolor"
+  "homepage": "https://github.com/phonegap/phonegap-app-hello-world"
 }
