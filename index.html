@@ -14,7 +14,7 @@
         }
         #content {
             position: fixed;
-            height: 100vh;
+            height: calc(100% + 30px);
             width: 100vw;
             top: 0;
             left: 0;
@@ -63,7 +63,7 @@
         </div>
     </div>
     <script>
-        window.scrollTo(0,1);
+        window.scrollTo(0, 30);
         // Регистрация сервисного работника
         if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
