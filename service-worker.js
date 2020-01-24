@@ -1,4 +1,3 @@
-
 self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('title').then(function(cache) {
@@ -6,7 +5,7 @@ self.addEventListener('install', function(e) {
        '/',
        '/index.html',
        '/manifest.json',
-       '/public/images/logo.png'
+       'logo.png'
      ]);
    })
  );
