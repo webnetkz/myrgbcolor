@@ -67,20 +67,18 @@
 </head>
 <body>
     <div id="content">
-		<button id="full">Full</button>
+		<!--<button id="full">Full</button>-->
         <div class="ranges">
             <p id="res"></p>
             <label for="red">Red</label>
                 <input type="range" id="red" class="range" max="255" value="55" oninput="exchange();">
             <label for="green">Green</label>
                 <input type="range" id="green" class="range" max="255" value="155" oninput="exchange();">
-            <label for="Blue">Blue
-                <input type="range" id="blue" class="range" max="255" value="255" oninput="exchange();">
-		</label>        
+            <label for="Blue">Blue</label>
+                <input type="range" id="Blue" class="range" max="255" value="255" oninput="exchange();">
 </div>
     </div>
     <script>
-        window.scrollTo(0, 100);
         // Регистрация сервисного работника
         if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
