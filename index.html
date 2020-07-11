@@ -98,22 +98,29 @@
             let res = document.getElementById('res').innerHTML = all;
         }
     </script>
-	    <script>
-			/*full.addEventListener("click", function() {
-
-				toggleFullScreen();
-
-			}, false);
-
-
-			function toggleFullScreen() {
-				if (!document.fullscreenElement) {
-					document.documentElement.requestFullscreen();
-					full.style.display = 'none';
-				}
-            }
-            document.documentElement.style.height = window.outerHeight + 'px';
-            setTimeout(window.scrollTo(0, 1), 0);*/
-		</script>
+	<script>
+        // Возможность добавить на главный экран приложение для IOS Safari
+        const isIos = () => {
+            const userAgent = window.navigator.userAgent.toLowerCase();
+            return /iphone|ipad|ipod/.test( userAgent );
+        };
+        // Проверяем, открыто ли приложение отдельно или в браузере
+        const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+        // Если приложение открыто на iOS и в браузере, то предлагаем установить
+        if (isIos() && !isInStandaloneMode()) {
+            this.setState({ isShown: true }); // На примере React
+        }
+	    /*full.addEventListener("click", function() {
+		    toggleFullScreen();
+	    }, false);
+	    function toggleFullScreen() {
+	    	if (!document.fullscreenElement) {
+	    		document.documentElement.requestFullscreen();
+	    		full.style.display = 'none';
+	    	}
+        }
+        document.documentElement.style.height = window.outerHeight + 'px';
+        setTimeout(window.scrollTo(0, 1), 0);*/
+	</script>
 </body>
 </html>
